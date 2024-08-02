@@ -1,0 +1,345 @@
+.container{
+    background-color: yellow;
+    height:1000px;
+}
+
+.menu{
+    background-color: white;
+    width:50%px;
+    height:80px;
+    margin:10px auto;
+    position: fixed;
+    top:20px;
+    left:25%;
+    right: 25%;
+    z-index: 1;
+}
+
+.logo a{
+    margin-left:30px;
+    font-size: 25px;
+    font-weight: bold;
+    color:skyblue;
+    line-height: 80px;
+    float: left;
+    text-decoration: none;
+    
+}
+
+.list ul{
+    line-height: 80px;
+    margin-top: 0px;;
+    list-style-type: none;
+    float:right;
+}
+
+.list ul li{
+    float: left;
+    margin-right: 15px;
+    color: rgb(123, 112, 112);
+}
+.home{
+    background-color: red;
+    width:60px;
+    text-align: center;
+}
+
+.box1{
+    clear: both;
+    background-image: url(images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    color: white;
+    text-align: center;
+}
+
+.box1 h1{
+    padding-top: 300px;
+    font-size: 30px;
+}
+
+.box1 p{
+    font-size: 90px;
+    width: 700px;
+    margin:0px auto 40px auto;
+}
+
+.link1,.link2{
+    background-color: tomato;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.link2{
+    background-color: skyblue;
+}
+
+.box2{
+    background-color: skyblue;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box2 p{
+    margin-top: 0px;
+    padding-top: 100px;
+
+    line-height: 50px;
+}
+.box2 p span{
+    font-size: 40px; 
+}
+
+.box2 a{
+    border: 1px solid white;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.box3 div{
+    width:33.33%;
+    height:300px;
+    float: left;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+.box3 .b1{
+    background-color: tomato;
+}
+
+.box3 .b2{
+    background-color: rgb(116, 111, 111);
+}
+
+.box3 .b3{
+    background-color: rgb(94, 108, 239);
+}
+
+.box3 p{
+    padding: 0px 60px;
+}
+
+
+.box4,.box7{
+    clear: both;
+    text-align: center;
+    padding:40px 20px;
+    font-size: 20px;
+}
+.box4,.box7 p{
+    width:700px;
+    margin:0 auto ;
+}
+
+.box5{
+    display: flex;
+    justify-content: center;
+}
+
+.box5 div{
+    
+    width:200px;
+    height:200px;
+    text-align: center;
+    background-color: beige;
+    margin: 0px auto;
+}
+
+.box5 div a{
+    text-decoration: none; 
+}
+
+.box5 img{
+    margin-top: 50px;
+}
+
+.box6{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+.box6 div{
+    width: 500px;
+    margin-right: 50px;
+}
+.box6 .l{
+    background-color: skyblue;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+}
+
+.box7{
+    color: white;
+    background-color: rgb(12, 12, 52);
+}
+
+.box8{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.box8 ul{
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.box8 li{
+    padding-bottom: 20px;
+    float: left;
+    margin-right: 50px;
+}
+
+.colunm1 div{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    padding-top:10px ;
+    background-color: rgb(49, 108, 225);
+    margin-bottom: 20px;
+}
+.colunm1 a{
+text-decoration: none;
+color: white;
+}
+.colunm1,.colunm2{
+    width: 600px;
+    margin-right: 20px;
+}
+
+.colunm2 .l2{
+    background-color: skyblue;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+}
+
+
+.colunm2 .cl1{
+    padding: 20px;
+    background-color: blueviolet;
+    height: 300px;
+    width: 510px;
+    position:relative;
+    z-index: 0;
+    top: -30px;
+    left: 10px;
+}
+
+.cl1 p{
+    clear: both;
+    margin-bottom: 30px;
+}
+
+input{
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.invia{
+    background-color: skyblue;
+}
+textarea{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.box9{
+    display: flex;
+    justify-content: center;
+}
+
+.form1{
+    margin-right: 20px;
+}
+
+.box10{
+    margin-top: 20px;
+    background-color: rgb(23, 23, 73);
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box10 ul{
+
+    list-style-type: none;
+}
+.box10 a{
+    color: white;
+text-decoration: none;}
+
+.back{
+    background-color: skyblue;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+@media(max-width:1521px){
+    .menu{
+        width:40%;
+        height:240px;
+        left: 30%;
+        right: 30%;
+    }
+    .menu ul{
+        float: left;
+    }
+    
+    }
+    
+
+@media(max-width:1062px){
+
+.box3 div{
+    width:100%;
+}
+
+.box5{
+    flex-direction: column;
+}
+
+.box5 div{
+    width:70%;
+    margin:10px auto;
+}
+
+.box6,.box8,.box9{
+    margin: 30px auto;
+    flex-direction: column;
+}
+.box6 div{
+    width:80%;
+    margin: 30px auto;
+}
+
+.box8,.box9{
+    width:50%;
+}
+
+}
+@media(max-width:918px){
+    .menu{
+        height: 80px;
+    }
+    .menu ul{
+        display: none;
+    }
+}
+
+
